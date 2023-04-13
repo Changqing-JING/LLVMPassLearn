@@ -1,0 +1,1 @@
+Learning project based on https://www.youtube.com/watch?v=GiffRLk8nkc&t=129s

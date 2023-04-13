@@ -18,4 +18,8 @@ private:
   llvm::raw_ostream &OS;
 };
 
+struct AddConstPass : public llvm::PassInfoMixin<AddConstPass> {
+  llvm::PreservedAnalyses run(llvm::Function &, llvm::FunctionAnalysisManager &);
+};
+
 } // namespace addconst
